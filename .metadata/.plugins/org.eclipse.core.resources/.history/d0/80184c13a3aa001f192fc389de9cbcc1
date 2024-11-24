@@ -1,0 +1,21 @@
+/*
+ * protocol.h
+ *
+ *  Created on: 23 nov 2024
+ *      Author: joh
+ */
+
+#ifndef PROTOCOL_H
+#define PROTOCOL_H
+
+//default IP address
+#define IP_SERVER "127.0.0.1"
+//default protocol port number
+#define PORT_SERVER 27015
+//max number of clients
+#define QLEN 5
+
+// BUFFER
+#define BUFFER 128
+
+#endif

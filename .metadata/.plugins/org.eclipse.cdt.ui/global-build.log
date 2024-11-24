@@ -1,0 +1,1641 @@
+20:46:09 **** Build of configuration Debug for project server ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/joh/Downloads/eclipse-cpp-2024-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin/server;C:/Users/joh/Downloads/eclipse-cpp-2024-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin;C:\Program Files\Amazon Corretto\jdk11.0.25_9\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_432\bin;C:\Program Files\Amazon Corretto\jdk17.0.13_11\bin;C:\Program Files\Amazon Corretto\jdk21.0.5_11\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\joh\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\joh\AppData\Local\Programs\Python\Python312\;C:\Users\joh\AppData\Local\Programs\Python\Launcher\;C:\Users\joh\AppData\Local\Microsoft\WindowsApps;C:\Users\joh\AppData\Local\GitHubDesktop\bin;C:\Users\joh\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\mingw64\mingw64\bin;C:\Users\joh\Downloads\eclipse-cpp-2024-09-R-win32-x86_64\eclipse]
+20:58:55 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server "src\\server.o" 
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\server.o: in function `clearwinsock':
+C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:31: undefined reference to `__imp_WSACleanup'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\server.o: in function `calculatorServer':
+C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:80: undefined reference to `__imp_recv'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:82: undefined reference to `__imp_ntohl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:83: undefined reference to `__imp_ntohl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:84: undefined reference to `__imp_ntohl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:85: undefined reference to `__imp_ntohl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:114: undefined reference to `__imp_htonl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:115: undefined reference to `__imp_htonl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:116: undefined reference to `__imp_htonl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:117: undefined reference to `__imp_htonl'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:119: undefined reference to `__imp_send'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\server.o: in function `main':
+C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:141: undefined reference to `__imp_WSAStartup'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:149: undefined reference to `__imp_socket'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:160: undefined reference to `__imp_inet_addr'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:161: undefined reference to `__imp_htons'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:162: undefined reference to `__imp_bind'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:164: undefined reference to `__imp_closesocket'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:170: undefined reference to `__imp_listen'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:172: undefined reference to `__imp_closesocket'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:181: undefined reference to `__imp_ntohs'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:181: undefined reference to `__imp_inet_ntoa'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:184: undefined reference to `__imp_accept'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:189: undefined reference to `__imp_ntohs'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:189: undefined reference to `__imp_inet_ntoa'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:192: undefined reference to `__imp_ntohs'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:192: undefined reference to `__imp_inet_ntoa'
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\joh\eclipse-workspace\server\Debug/../src/server.c:195: undefined reference to `__imp_closesocket'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for server
+18:11:54 **** Rebuild of configuration Debug for project server2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server2.o" "..\\src\\server2.c" 
+gcc -o server2.exe "src\\server2.o" -lwsock32 
+18:15:22 **** Rebuild of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 
+18:18:02 **** Rebuild of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'calculatorClient':
+..\src\client.c:152:33: warning: 'free' called on pointer to an unallocated object [-Wfree-nonheap-object]
+  152 |                                 free(input); //free memory
+      |                                 ^~~~~~~~~~~
+..\src\client.c:130:14: note: returned from '__builtin_alloca_with_align'
+  130 |         char input[LEN]; //string input from user
+      |              ^~~~~
+gcc -o client.exe "src\\client.o" -lwsock32 
+18:18:03 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file server.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:36:01 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+00:36:03 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'handle_client':
+..\src\server.c:40:17: error: pointers are not permitted as case values
+   40 |                 case "n":
+      |                 ^~~~
+..\src\server.c:41:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:43:17: error: pointers are not permitted as case values
+   43 |                 case "a":
+      |                 ^~~~
+..\src\server.c:44:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:46:17: error: pointers are not permitted as case values
+   46 |                 case "m":
+      |                 ^~~~
+..\src\server.c:47:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:49:17: error: pointers are not permitted as case values
+   49 |                 case "s":
+      |                 ^~~~
+..\src\server.c:50:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:132:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  132 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:41:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:141:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  141 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:44:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:150:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  150 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:47:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:159:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  159 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:50:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+Info: Nothing to build for client
+00:36:07 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'handle_client':
+..\src\server.c:40:17: error: pointers are not permitted as case values
+   40 |                 case "n":
+      |                 ^~~~
+..\src\server.c:41:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:43:17: error: pointers are not permitted as case values
+   43 |                 case "a":
+      |                 ^~~~
+..\src\server.c:44:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:46:17: error: pointers are not permitted as case values
+   46 |                 case "m":
+      |                 ^~~~
+..\src\server.c:47:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:49:17: error: pointers are not permitted as case values
+   49 |                 case "s":
+      |                 ^~~~
+..\src\server.c:50:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:132:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  132 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:41:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:141:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  141 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:44:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:150:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  150 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:47:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:159:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  159 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:50:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+00:37:37 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+00:37:38 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'handle_client':
+..\src\server.c:41:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:44:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:47:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:50:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:132:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  132 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:41:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:141:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  141 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:44:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:150:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  150 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:47:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:159:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  159 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:50:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+Info: Nothing to build for server
+02:39:36 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+02:39:38 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'handle_client':
+..\src\server.c:41:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:44:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:47:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:50:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:132:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  132 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:41:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:141:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  141 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:44:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:150:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  150 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:47:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:159:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  159 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:50:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file server.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for client
+02:39:46 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -o server.exe "src\\server.o" -lwsock32 
+20:05:45 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+20:05:47 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'handle_client':
+..\src\server.c:41:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:44:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:47:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:50:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:132:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  132 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:41:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   41 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:141:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  141 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:44:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   44 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:150:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  150 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:47:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   47 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:159:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  159 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:50:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   50 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file server.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:40:14 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+20:40:15 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:45:20: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+   45 |         if (length > 32 | length < 6) {
+      |             ~~~~~~~^~~~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:142:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  142 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:150:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  150 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c: In function 'generate_alpha':
+..\src\server.c:170:1: error: expected declaration or statement at end of input
+  170 | }
+      | ^
+..\src\server.c: At top level:
+..\src\server.c:165:6: warning: 'generate_secure' defined but not used [-Wunused-function]
+  165 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:157:6: warning: 'generate_mixed' defined but not used [-Wunused-function]
+  157 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+Info: Nothing to build for client
+20:40:50 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:45:20: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+   45 |         if (length > 32 | length < 6) {
+      |             ~~~~~~~^~~~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:78:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+   78 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:86:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+   86 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c: In function 'generate_alpha':
+..\src\server.c:108:5: warning: 'main' is normally a non-static function [-Wmain]
+  108 | int main() {
+      |     ^~~~
+..\src\server.c:170:1: error: expected declaration or statement at end of input
+  170 | }
+      | ^
+..\src\server.c: At top level:
+..\src\server.c:108:5: warning: 'main' defined but not used [-Wunused-function]
+  108 | int main() {
+      |     ^~~~
+..\src\server.c:101:6: warning: 'generate_secure' defined but not used [-Wunused-function]
+  101 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:93:6: warning: 'generate_mixed' defined but not used [-Wunused-function]
+   93 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+Info: Nothing to build for client
+20:41:47 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:45:20: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+   45 |         if (length > 32 | length < 6) {
+      |             ~~~~~~~^~~~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:153:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  153 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:161:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  161 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:169:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  169 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+20:43:35 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:53:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   53 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:56:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   56 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:59:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   59 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:62:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   62 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:144:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  144 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:53:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   53 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:153:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  153 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:56:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   56 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:162:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  162 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:59:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   59 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:171:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  171 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:62:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   62 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+20:45:27 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:45:20: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+   45 |         if (length > 32 | length < 6) {
+      |             ~~~~~~~^~~~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+20:46:23 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:53:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   53 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:56:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   56 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:59:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   59 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:62:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   62 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:144:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  144 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:53:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   53 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:153:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  153 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:56:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   56 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:162:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  162 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:59:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   59 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:171:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  171 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:62:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   62 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+20:50:43 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+20:52:06 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+20:52:48 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file server.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:55:19 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+20:55:20 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+20:57:33 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+20:58:40 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:52:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   52 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:55:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   55 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:58:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   58 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:61:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   61 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:146:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  146 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:52:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   52 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:155:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  155 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:55:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   55 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:164:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  164 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:58:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   58 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:173:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  173 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:61:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   61 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+20:59:12 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:37:19: warning: comparison with string literal results in unspecified behavior [-Waddress]
+   37 |         if (input == "q") {
+      |                   ^~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+21:01:20 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:37:27: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   37 |         if (strcmp(input, 'q') == 0) {
+      |                           ^~~
+      |                           |
+      |                           int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\server.c:13:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: In function 'client_handler':
+..\src\server.c:37:13: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   37 |         if (strcmp(input, 'q') == 0) {
+      |             ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o server.exe "src\\server.o" -lwsock32 
+21:01:51 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:02:00 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:02:41 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:02:42 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+Info: Nothing to build for server
+21:03:13 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:03:54 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+21:04:25 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:05:49 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:9: error: too many arguments to function 'strcmp'
+   34 |     if (strcmp(input, "q", 1) == 0) {
+      |         ^~~~~~
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:15: note: declared here
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |               ^~~~~~
+21:05:49 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:37:13: error: too many arguments to function 'strcmp'
+   37 |         if (strcmp(input, "q", 1) == 0) {
+      |             ^~~~~~
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\server.c:13:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:15: note: declared here
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |               ^~~~~~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+21:07:00 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:07:01 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:37:13: error: too many arguments to function 'strcmp'
+   37 |         if (strcmp(input, "q", 1) == 0) {
+      |             ^~~~~~
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\server.c:13:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:15: note: declared here
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |               ^~~~~~
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+Info: Nothing to build for client
+21:07:25 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+21:07:39 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+21:08:13 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:08:14 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+21:11:25 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:11:25 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+..\src\server.c: In function 'client_handler':
+..\src\server.c:51:21: warning: implicit declaration of function 'generate_numeric' [-Wimplicit-function-declaration]
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:54:21: warning: implicit declaration of function 'generate_alpha' [-Wimplicit-function-declaration]
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:57:21: warning: implicit declaration of function 'generate_mixed' [-Wimplicit-function-declaration]
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:60:21: warning: implicit declaration of function 'generate_secure' [-Wimplicit-function-declaration]
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+..\src\server.c: At top level:
+..\src\server.c:145:6: warning: conflicting types for 'generate_numeric'; have 'void(char *, int)'
+  145 | void generate_numeric(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~~
+..\src\server.c:51:21: note: previous implicit declaration of 'generate_numeric' with type 'void(char *, int)'
+   51 |                     generate_numeric(password, length);
+      |                     ^~~~~~~~~~~~~~~~
+..\src\server.c:154:6: warning: conflicting types for 'generate_alpha'; have 'void(char *, int)'
+  154 | void generate_alpha(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:54:21: note: previous implicit declaration of 'generate_alpha' with type 'void(char *, int)'
+   54 |                     generate_alpha(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:163:6: warning: conflicting types for 'generate_mixed'; have 'void(char *, int)'
+  163 | void generate_mixed(char *password, int length) {
+      |      ^~~~~~~~~~~~~~
+..\src\server.c:57:21: note: previous implicit declaration of 'generate_mixed' with type 'void(char *, int)'
+   57 |                     generate_mixed(password, length);
+      |                     ^~~~~~~~~~~~~~
+..\src\server.c:172:6: warning: conflicting types for 'generate_secure'; have 'void(char *, int)'
+  172 | void generate_secure(char *password, int length) {
+      |      ^~~~~~~~~~~~~~~
+..\src\server.c:60:21: note: previous implicit declaration of 'generate_secure' with type 'void(char *, int)'
+   60 |                     generate_secure(password, length);
+      |                     ^~~~~~~~~~~~~~~
+gcc -o server.exe "src\\server.o" -lwsock32 
+C:/ProgramData/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file server.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for client
+21:11:35 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -o server.exe "src\\server.o" -lwsock32 
+21:11:50 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:23: warning: passing argument 2 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |                       ^~~
+      |                       |
+      |                       int
+In file included from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/guiddef.h:154,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winnt.h:648,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windef.h:9,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/windows.h:69,
+                 from C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from ..\src\client.c:11:
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:63:52: note: expected 'const char *' but argument is of type 'int'
+   63 |   int __cdecl strcmp(const char *_Str1,const char *_Str2);
+      |                                        ~~~~~~~~~~~~^~~~~
+..\src\client.c:34:9: warning: 'strcmp' reading 1 or more bytes from a region of size 0 [-Wstringop-overread]
+   34 |     if (strcmp(input, 'q') == 0) {
+      |         ^~~~~~~~~~~~~~~~~~
+cc1.exe: note: source object is likely at address zero
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+21:12:29 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:13:33 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+..\src\client.c: In function 'input_handler':
+..\src\client.c:34:14: error: assignment to expression with array type
+   34 |     if(input = 'q'){
+      |              ^
+Info: Nothing to build for server
+21:15:26 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:19:44 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:19:45 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+21:22:07 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 
+21:27:19 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:27:19 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+Info: Nothing to build for server
+21:28:27 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:28:56 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:29:22 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+Info: Nothing to build for server
+21:31:52 **** Incremental Build of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:31:53 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+Info: Nothing to build for server
+Info: Nothing to build for client
+21:34:50 **** Incremental Build of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 
+Info: Nothing to build for client
+Info: Nothing to build for server
+21:36:26 **** Clean-only build of configuration Debug for project client ****
+rm -rf src/client.d client.exe src/client.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\ProgramData\mingw64\mingw64\bin;\bin;\usr\bin;C:/Users/joh/Downloads/eclipse-cpp-2024-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin/server;C:/Users/joh/Downloads/eclipse-cpp-2024-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin;C:\Program Files\Amazon Corretto\jdk11.0.25_9\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_432\bin;C:\Program Files\Amazon Corretto\jdk17.0.13_11\bin;C:\Program Files\Amazon Corretto\jdk21.0.5_11\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\joh\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\joh\AppData\Local\Programs\Python\Python312\;C:\Users\joh\AppData\Local\Programs\Python\Launcher\;C:\Users\joh\AppData\Local\Microsoft\WindowsApps;C:\Users\joh\AppData\Local\GitHubDesktop\bin;C:\Users\joh\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\mingw64\mingw64\bin;C:\Users\joh\Downloads\eclipse-cpp-2024-09-R-win32-x86_64\eclipse]
+
+21:36:26 **** Clean-only build of configuration Debug for project client ****
+21:36:26 **** Clean-only build of configuration Debug for project server ****
+rm -rf src/server.d server.exe src/server.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\ProgramData\mingw64\mingw64\bin;\bin;\usr\bin;C:/Users/joh/Downloads/eclipse-cpp-2024-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin/server;C:/Users/joh/Downloads/eclipse-cpp-2024-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin;C:\Program Files\Amazon Corretto\jdk11.0.25_9\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_432\bin;C:\Program Files\Amazon Corretto\jdk17.0.13_11\bin;C:\Program Files\Amazon Corretto\jdk21.0.5_11\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\joh\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\joh\AppData\Local\Programs\Python\Python312\;C:\Users\joh\AppData\Local\Programs\Python\Launcher\;C:\Users\joh\AppData\Local\Microsoft\WindowsApps;C:\Users\joh\AppData\Local\GitHubDesktop\bin;C:\Users\joh\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\mingw64\mingw64\bin;C:\Users\joh\Downloads\eclipse-cpp-2024-09-R-win32-x86_64\eclipse]
+
+21:36:26 **** Clean-only build of configuration Debug for project server ****
+21:36:26 **** Rebuild of configuration Debug for project client ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\client.o" "..\\src\\client.c" 
+gcc -o client.exe "src\\client.o" -lwsock32 
+21:36:27 **** Rebuild of configuration Debug for project server ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\server.o" "..\\src\\server.c" 
+gcc -o server.exe "src\\server.o" -lwsock32 

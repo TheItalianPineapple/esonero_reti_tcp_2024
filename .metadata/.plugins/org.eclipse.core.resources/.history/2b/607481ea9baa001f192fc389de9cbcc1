@@ -1,0 +1,35 @@
+/*
+ * protocol.h
+ *
+ *  Created on: 23 nov 2024
+ *      Author: joh
+ */
+
+#ifndef PROTOCOL_H
+#define PROTOCOL_H
+
+//default IP address
+#define IP_SERVER "127.0.0.1"
+//default protocol port number
+#define PORT_SERVER 27015
+//max number of clients
+#define QLEN 5
+
+// BUFFER
+#define BUFFER 64
+
+#define PASSWORD_TYPE_NUMERIC 'n'
+#define PASSWORD_TYPE_ALPHA 'a'
+#define PASSWORD_TYPE_MIXED 'm'
+#define PASSWORD_TYPE_SECURE 's'
+
+
+//struct of a message
+typedef struct{
+	char type; //+ - x / or =
+	long signed int lenght; //signed integer
+	char resultNaN; //'1' if result of operation is not a number, '0' otherwise
+}message;
+
+
+#endif /* PROTOCOL_H_ */
