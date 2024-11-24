@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;server/src/protocol&apos; to &apos;protocol.h&apos;" description="Rename resource &apos;protocol&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/protocol" name="protocol.h" stamp="1732304739658" updateReferences="true"/>
-</session>
